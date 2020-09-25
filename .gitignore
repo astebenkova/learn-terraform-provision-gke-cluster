@@ -30,3 +30,4 @@ override.tf.json
 #
 # GCP .json key
 gcp_terraform_key.json
+.idea/
