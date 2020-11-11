@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+    name: gifsearch-private
+    labels:
+        app: gifsearch
+spec:
+    containers:
+    - name: gifsearch
+      image: us.gcr.io/long-way-267815/gifsearch
+      imagePullPolicy: Always
